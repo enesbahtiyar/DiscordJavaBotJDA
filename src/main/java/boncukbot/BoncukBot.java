@@ -11,7 +11,7 @@ public class BoncukBot
 {
     public static void main(String[] args) throws LoginException
     {
-        final String TOKEN = "MTExMDUzMTIwODMxNzc4MDA3OA.Gl0jCZ.kEJQeRHr_m-vyPfzoS0qhvHUHlXdx3A0mYbqBE";
+        final String TOKEN = "";
         JDABuilder jdaBuilder = JDABuilder.createDefault(TOKEN);
         JDA jda = jdaBuilder.
                 enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGES).
